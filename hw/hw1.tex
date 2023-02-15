@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{natbib}
+\usepackage[top=1in, bottom=1in, right=1in, left=1in]{geometry}
+\usepackage{setspace}
+\usepackage[reqno]{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{subfig}
+\usepackage{bibentry}
+\usepackage{array}
+\usepackage{dcolumn}
+\usepackage{url}
+\usepackage{makecell}
+\DeclareMathOperator{\ExpOp}{E}
+\DeclarePairedDelimiterX{\ExpArg}[1]{[}{]}{#1}
+\newcommand{\E}{\ExpOp\ExpArg*}
+
+\begin{document}
+
+\title{Homework 1 \\
+        \large PLSC 597}
+
+\author{Taran Samarth}
+\date{\today}
+\maketitle
+
+\onehalfspacing
+
+\section*{Problem 1}
+
+\subsection*{Part 1}
+
+$\hat{\rho}$ is unbiased for $\rho$ if $\E{\hat{\rho}} = \rho$.
+
+\begin{align*}
+\E{\hat{\rho}} & = \E{\E{\hat{\rho} | D_i}} && \text{(law of total exp.)} \\
+& = \E{p(D_i = 0)\E{\hat{\rho} | D_i = 0} + p(D_i = 1)\E{\hat{\rho} | D_i = 1}} && \text{(def. of conditional exp.)}\\
+& = \E{\frac{1}{2}\E{2Y_{1i}} + \frac{1}{2}\E{-2Y_{0i}}} && \text{(by linearity)} \\ 
+& = \E{\E{Y_{1i}} - \E{Y_{0i}}} && \\
+& = \E{Y_{1i} - Y_{0i}} = \rho &&
+\end{align*}
+
+The statement is true.
+
+\subsection*{Part 2}
+
+False, $\hat{\rho}$ is not a consistent estimator of $\rho$ as $N \rightarrow \inf$. The estimated $\hat{\rho}$ using any single unit $i$ does not converge to the population parameter because the population grows larger. Because one unit is always selected from the population, regardless of size, the single sampled unit does not contain more information about the population as $N \rightarrow \inf$, so it does not systematically converge to any specific value.
+
+\section*{Problem 2}
+
+\begin{table}
+\begin{tabular}{l|p{1.5in}|p{1.5in}|p{1.5in}}
+Article & Causal effects & ID strategies & Ideal intervention and manipulability\\
+\hline
+Miller (2023) & ATE of Congressmember gender on being interrupted in hearings & Implicitly estimating the difference in the average likelihood of being interrupted for women in Congress, compared to men & \\
+\hline
+Naurin et al. (2023) & ATE of being in different stages of pregnancy and parenthood on political engagement & Estimating difference in avg. levels of political engagement between treated (pregnant/parent) and control (matched over gender, age, education, and interview time) groups & Randomly assigning half of a sample to bear children and measuring their levels of political engagement over 9 months or more?
+\end{tabular}
+\end{table}
+
+\section*{Problem 3}
+
+\subsection*{Part 1}
+
+\subsection*{Part 2}
+
+\subsection*{Part 3}
+
+
+
+
+\end{document}
