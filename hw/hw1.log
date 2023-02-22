@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.13)  13 FEB 2023 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.13)  18 FEB 2023 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,31 +327,38 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen185
 \c@nlinenum=\count299
 \TeXr@lab=\toks24
+) (/Users/taransamarth/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count300
+\float@exts=\toks25
+\float@box=\box56
+\@float@everytoks=\toks26
+\@floatcapt=\box57
 ) (/Users/taransamarth/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box58
 ) (./hw1.aux)
 \openout1 = `hw1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
  (/Users/taransamarth/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -392,110 +399,195 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
 (./hw1.out) (./hw1.out)
 \@outlinefile=\write3
 \openout3 = `hw1.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
  (/Users/taransamarth/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (/Users/taransamarth/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-[]|\OT1/cmr/m/n/12 Ideal in-ter-ven-tion
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\OT1/cmr/m/n/12 Miller and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\OT1/cmr/m/n/12 ATE of Con-gress-
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 Suther-land[]
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 mem-ber gen-der on
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 gress-mem-ber
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 60--60
-\OT1/cmr/m/n/12 nancy and par-ent-
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 gen-der on
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 be-ing in-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 rupted in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 av-er-age like-li-hood
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 for Con-gress-women,
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 59--59
+\OT1/cmr/m/n/12 com-pared to Con-
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 59--60
+\OT1/cmr/m/n/12 Con-gress-peo-ple, wit-nesses, seat-ing ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 and Mark-st-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 in dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 stages of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 preg-nancy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 and par-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 ent-hood on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 po-lit-i-cal en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 gage-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 (seem-ingly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 among het-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+\OT1/cmr/m/n/12 ero-sex-ual
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 61--61
 \OT1/cmr/m/n/12 in avg. lev-els of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \OT1/cmr/m/n/12 be-tween treated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \OT1/cmr/m/n/12 (preg-nant/parent)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \OT1/cmr/m/n/12 over gen-der, age,
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 60--61
-[]|\OT1/cmr/m/n/12 Randomly as-sign-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/cmr/m/n/12 half of a sam-ple
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/cmr/m/n/12 to bear chil-dren
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/cmr/m/n/12 lev-els of po-lit-i-cal
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 60--61
-\OT1/cmr/m/n/12 en-gage-ment over 9
- []
-
-
-Overfull \hbox (8.12001pt too wide) in paragraph at lines 55--62
+Overfull \hbox (49.19994pt too wide) in paragraph at lines 56--63
 [][] 
  []
 
 [1
 
-{/Users/taransamarth/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./hw1.aux)
+{/Users/taransamarth/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<hw1_hists.pdf, id=25, 722.7pt x 361.35pt>
+File: hw1_hists.pdf Graphic file (type pdf)
+<use hw1_hists.pdf>
+Package pdftex.def Info: hw1_hists.pdf  used on input line 75.
+(pdftex.def)             Requested size: 375.80544pt x 187.90308pt.
+ [2]
+<hw1_Xconv.pdf, id=42, 505.89pt x 505.89pt>
+File: hw1_Xconv.pdf Graphic file (type pdf)
+<use hw1_Xconv.pdf>
+Package pdftex.def Info: hw1_Xconv.pdf  used on input line 86.
+(pdftex.def)             Requested size: 328.82707pt x 328.8323pt.
+ [3 <./hw1_hists.pdf>]
+<hw1_Yconv.pdf, id=55, 505.89pt x 505.89pt>
+File: hw1_Yconv.pdf Graphic file (type pdf)
+<use hw1_Yconv.pdf>
+Package pdftex.def Info: hw1_Yconv.pdf  used on input line 93.
+(pdftex.def)             Requested size: 328.82707pt x 328.8323pt.
+ [4 <./hw1_Xconv.pdf>]
+<hw1_diffmeans.pdf, id=65, 505.89pt x 505.89pt>
+File: hw1_diffmeans.pdf Graphic file (type pdf)
+<use hw1_diffmeans.pdf>
+Package pdftex.def Info: hw1_diffmeans.pdf  used on input line 104.
+(pdftex.def)             Requested size: 328.82707pt x 328.8323pt.
+ [5 <./hw1_Yconv.pdf>] (./hw1.bbl) [6 <./hw1_diffmeans.pdf>] (./hw1.aux)
 Package rerunfilecheck Info: File `hw1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12353 strings out of 476928
- 201585 string characters out of 5824052
- 555254 words of memory out of 5000000
- 33445 multiletter control sequences out of 15000+600000
- 477715 words of font info for 61 fonts, out of 8000000 for 9000
+ 12483 strings out of 476928
+ 203828 string characters out of 5824052
+ 558911 words of memory out of 5000000
+ 33549 multiletter control sequences out of 15000+600000
+ 478062 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,13n,79p,492b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on hw1.pdf (2 pages, 84811 bytes).
+ 72i,13n,79p,909b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/taransamarth/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hw1.pdf (6 pages, 133817 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

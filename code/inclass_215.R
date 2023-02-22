@@ -160,11 +160,17 @@ feols(
 ##Plot the distributions of each of the independent variables for treatment and
 ## control
 
+ivs <- c(re74, re75, marr, educ, age, black, hisp)
+ggplot(df_exp, aes(x = re74, group = treat)) + geom_density() + facet_wrap(~treat)
+ggplot(df_exp, aes(x = re75, group = treat)) + geom_density() + facet_wrap(~treat)
+ggplot(df_exp, aes(x = educ, group = treat)) + geom_density() + facet_wrap(~treat)
+ggplot(df_exp, aes(x = age, group = treat)) + geom_density() + facet_wrap(~treat)
 
 ##Pick the covariate that look like the best fit and the covariate that looks like the 
 ##worst fit. Conduct a Kolmogorov-Smirnov test. Are they statistically different?
 
-
+ks.test((df_exp %>% filter(treat == 1))$educ, (df_exp %>% filter(treat == 0))$educ)
+ks.test((df_exp %>% filter(treat == 1))$re74, (df_exp %>% filter(treat == 0))$re74)
 
 
 
