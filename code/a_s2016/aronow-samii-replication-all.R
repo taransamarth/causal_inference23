@@ -66,6 +66,7 @@ plot(	world,
 		border="gray", lwd=.25)
 dev.off()
 
+w1
 
 ########
 
@@ -74,13 +75,29 @@ dev.off()
 
 #### What are the top 10 individual observations in terms of weight?
 
+<<<<<<< HEAD
 jensen.cc[order(w, decreasing = TRUE)[1:10],]
 
 # Appear to be several countries (Ghana, BF, Argentina, and Turkey) around 77-81
+=======
+
+jensen.cc$w<-w
+
+library(dplyr)
+?order
+
+x<-jensen.cc[order(jensen.cc$w, decreasing = T),]
+
+>>>>>>> b9e9e7d49afaf3532596ab685e835bb01be3e16f
 
 #### WHat is the minimum number of individual observations
 ####you have to delete in order to eliminate the significant result?
+i<-15
+xx<-x[i:length(x$country),]
 
+fit.y <- lm(as.formula(paste("Fvar5~regime+", X.vars.f, sep="")), data=xx)
+
+<<<<<<< HEAD
 sig <- TRUE
 i <- 1
 vals <- c()
@@ -97,6 +114,9 @@ i
 
 # 13 observations
 
+=======
+summary(fit.y)
+>>>>>>> b9e9e7d49afaf3532596ab685e835bb01be3e16f
 ###generate a new covariate that is 
 ### uniform random in the range of the treatment variable 
 covar1 <- runif(nrow(jensen.cc), min(jensen.cc$regime), max(jensen.cc$regime))
@@ -129,5 +149,20 @@ plot(	world,
       col=gray(1-abs(attributes(world)$data$weight)/max(abs(attributes(world)$data$weight))),
       border="gray", lwd=.25)
 
+<<<<<<< HEAD
 # The figure appears to weight most countries a bit (the distribution of weights seems less right-tailed)
 # but still far from the nominal sample
+=======
+jensen.cc$new<-runif(1630, 0,20)
+?sample
+jensen.cc$indicator<-sample.int(2,1630, replace = T)
+
+
+jensen.cc$new[jensen.cc$indicator==2]<-jensen.cc$regime[jensen.cc$indicator==2]
+
+fit.y <- lm(as.formula(paste("Fvar5~regime+new+", X.vars.f, sep="")), data=jensen.cc)
+summary(fit.y)
+
+
+
+>>>>>>> b9e9e7d49afaf3532596ab685e835bb01be3e16f
