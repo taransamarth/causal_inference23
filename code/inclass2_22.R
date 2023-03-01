@@ -137,6 +137,9 @@ res.tab.out
 ####conceptually, what is the motivation for controlling for log.followers? 
 #### is there some risk of this being a ``bad control" ? 
 
+# Motivation is to control for their popularity -- we might expect that people who have
+# many followers are less likely to respond to a sanction from a single person since
+# they may treat that account as noise
 
 #### The two datasets are based on different assumptions about how to treat 
 ### study attrition --- subjects whose accounts were deleted/suspended/unmeasured
@@ -146,12 +149,24 @@ res.tab.out
 
 ### Explain the potential bias from using the standard assumption
 
-
+# Accounts that are suspended or deleted may have literally been banned for being racist
+# over a long time horizon (so the people that are retained may have been resistant
+# to the sanction but are now being excluded)
 
 ###using the code from inclass_215.R, perform CEM on this data, matching
 ## on the anonymity, pre-treatment outcome measure, and log.followers.
+library(MatchIt)
+library(tidyverse)
+newdata <- data %>% filter(treat.f %in% c(0,3))
+cem_tweetment <- matchit(
+  treat.f ~ anonymity + racism.scores.pre.2mon + log.followers,
+  data = newdata,
+  method = "cem", estimand = "ATE"
+)
+  
+newdata$cem_weights <- cem_tweetment$weights
 
 ### You'll have to restrict the data to just treatment 3 and the control (0)
 
 ## estimate a standard ols model with these cem weights. 
-
+lm(racism.scores.post.1wk ~ as.factor(treat.f), weights = cem_weights, data = newdata)
